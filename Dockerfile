@@ -1,6 +1,6 @@
-ARG CUDA_VERSION=11.8.0
+ARG CUDA_VERSION=12.1.0
 ARG OS_VERSION=20.04
-ARG TRT_VERSION=8.5.2
+ARG TRT_VERSION=8.6.1
 
 # ---------------------------------------------------------------------------
 FROM nvcr.io/nvidia/cuda:${CUDA_VERSION}-cudnn8-runtime-ubuntu${OS_VERSION} as tensorrt-runner
